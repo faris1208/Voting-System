@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url("../fonts/Inter/static/Inter-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: LexendRegular;
+    src: url("../fonts/Lexend/static/Lexend-Regular.ttf");
+  }
+
+
+.women-container{
+    width: 100%;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+
+.women-text{
+    text-align: right;
+    /* border: 2px solid red; */
+}
+
+.women-text h6{
+    color: #000;
+    text-align: right;
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+    margin-right: 25px;
+}
+
+.women-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 90px;
+}
+
+
+.women-image{
+    width: 80%;
+}
+
+.men-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.men-content h3{
+    color: #000;
+    text-align: center;
+    font-family: LexendRegular;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+}
+
+.men-content p{
+    color: rgba(0, 0, 0, 0.81);
+    /* leading-trim: both; */
+    /* text-edge: cap; */
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 133.333% */
+    letter-spacing: 0.3px;
+
+    /* border: 2px solid green; */
+    padding: 10px 20px;
+    margin: 40px 0px 30px;
+}
+
+.men-image{
+    width: 50%;
+}
+
+.men-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.men-btn1{
+    display: flex;
+    width: 278px;
+    height: 54px;
+    transform: rotate(-0.176deg);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    border: 1px solid #0CBB5C;
+    background: #0CBB5C;
+
+    color: #000;
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px 0px 0px ;
+}
+
+.men-btn1:hover{
+    background-color: #fff;
+    border: 1px solid #0CBB5C;
+    color: #0CBB5C;
+}
+
+.men1-btn1{
+    display: flex;
+    width: 278px;
+    height: 54px;
+    transform: rotate(-0.176deg);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    border: 1px solid #0CBB5C;
+    background: #FFF;
+
+    color: #0CBB5C;
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 25px 0px 15px ;
+}
+
+.men1-btn1:hover{
+    background-color: #0CBB5C;
+    border: 1px solid #0CBB5C;
+    color: #000;
+}
+
+
+@media (min-width:800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    @font-face {
+        font-family: InterRegular;
+        src: url("../fonts/Inter/static/Inter-Regular.ttf");
+      }
+    
+      @font-face {
+        font-family: LexendRegular;
+        src: url("../fonts/Lexend/static/Lexend-Regular.ttf");
+      }
+    
+    
+    .women-container{
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .women-text{
+        text-align: right;
+    }
+    
+    .women-text h6{
+        color: #000;
+        text-align: right;
+        font-family: InterRegular;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+        margin-right: 125px;
+        padding: 30px 0px;
+        /* border: 2px solid red; */
+    }
+    
+    .women-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+        margin-top: 90px;
+    }
+    
+    
+    .women-image{
+        width: 40%;
+    }
+    
+    .men-content{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    .men-content h3{
+        color: #000;
+        text-align: center;
+        font-family: LexendRegular;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 100% */
+    }
+    
+    .men-content p{
+        color: rgba(0, 0, 0, 0.81);
+        /* leading-trim: both; */
+        /* text-edge: cap; */
+        font-family: InterRegular;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 133.333% */
+        letter-spacing: 0.3px;
+    
+        /* border: 2px solid green; */
+        padding: 0px 15px;
+        margin: 40px 0px 30px;
+
+        text-align: center;
+
+        display: flex;
+        width: 319px;
+        height: 31px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    
+    .men-image{
+        width: 10%;
+        margin: 40px 0px 0px;
+    }
+
+    .men-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 40px;
+    }
+    
+    .men1-btn1{
+        display: flex;
+        width: 278px;
+        height: 54px;
+        transform: rotate(-0.176deg);
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+    
+        border-radius: 10px;
+        border: 1px solid #0CBB5C;
+        background: #fff;
+    
+        color: #0CBB5C;
+        font-family: InterRegular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 30px 0px 5px ;
+    }
+    
+    .men-btn1:hover{
+        background-color: #fff;
+        border: 1px solid #0CBB5C;
+        color: #0CBB5C;
+    }
+
+    .men-btn1{
+        display: flex;
+        width: 278px;
+        height: 54px;
+        transform: rotate(-0.176deg);
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+    
+        border-radius: 10px;
+        border: 1px solid #0CBB5C;
+        background: #0CBB5C;
+    
+        color: #000;
+        font-family: InterRegular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 30px 0px 0px ;
+    }
+    
+    .men-btn1:hover{
+        background-color: #fff;
+        border: 1px solid #0CBB5C;
+        color: #0CBB5C;
+    }
+}

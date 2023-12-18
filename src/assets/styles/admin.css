@@ -1,0 +1,409 @@
+/* /* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+@font-face {
+    font-family: InterRegular;
+    src: url("../fonts/Inter/static/Inter-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: LexendRegular;
+    src: url("../fonts/Lexend/static/Lexend-Regular.ttf");
+  }
+
+.admin-container{
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.admin-elect{
+    text-align: center;
+    margin: 50px 0px 0px;
+}
+
+.admin-elect h2{
+    color: #0CBB5C;
+    text-align: center;
+    font-family: LexendRegular;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 50% */
+}
+
+.admin-admin1{
+    border: 1px solid green;
+    width: 50%;
+    padding: 10px;
+    margin: 40px 0px 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.admin-user2{
+    color: #0CBB5C;
+    text-align: center;
+    font-family: InterRegular;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    border-radius: 15px;
+    background: #fff;
+    padding: 6px 28px;
+
+    border: 1px solid #0CBB5C;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.admin-user2:hover{
+    color: #000;
+}
+
+.admin-admin2{
+    color: #fff;
+    text-align: center;
+    font-family: InterRegular;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 6px 25px;
+    border: 1px solid #0CBB5C;
+    border-radius: 15px;
+    background-color: #0CBB5C;
+    position: absolute;
+    right: 15px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.admin-admin:hover{
+    color: #000;
+}
+
+.admin-account{
+    margin: 10px 0px;
+}
+
+.admin-account h3{
+    color: #000;
+    text-align: left;
+    font-family: InterRegular;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px; /* 100% */
+}
+
+.admin-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0px 0px ;
+    position: relative;
+    /* align-items: center; */
+}
+
+.admin-input{
+    width: 100%;
+    padding: 25px 10px;
+    border-radius: 10px;
+    border: 1px solid #0CBB5C;
+    background: #FFF;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-family: InterRegular;
+}
+
+::placeholder{
+    font-size: 20px;
+    font-family: InterRegular;
+}
+
+.eyelashes-two{
+    width: 8%;
+    position: absolute;
+    bottom: 130px;
+    right: 8%;
+}
+
+.eyelashes-three{
+    width: 8%;
+    position: absolute;
+    bottom: 30px;
+    right: 8%;
+}
+
+
+.adminbtn-btn{
+    margin: 40px 0px 10px;
+}
+
+.admin-btn{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #0CBB5C;
+    background: #0CBB5C;
+
+    color: #FFF;
+    font-family: InterRegular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 25px 0px;
+    cursor: pointer;
+}
+
+.admin-text{
+    margin: 30px 0px 20px;
+}
+
+.admin-text p{
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: InterRegular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.admin-log{
+    color: #0CBB5C;
+    font-family: InterRegular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+@media (min-width:800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    @font-face {
+        font-family: InterRegular;
+        src: url("../fonts/Inter/static/Inter-Regular.ttf");
+      }
+    
+      @font-face {
+        font-family: LexendRegular;
+        src: url("../fonts/Lexend/static/Lexend-Regular.ttf");
+      }
+    
+    .admin-container{
+        width: 100%;
+        max-width: 1440px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .admin-contents{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .admin-elect{
+        text-align: center;
+        margin: 50px 0px 0px;
+    }
+    
+    .admin-elect h2{
+        color: #0CBB5C;
+        text-align: center;
+        font-family: LexendRegular;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 50% */
+    }
+
+    .admin{
+        width: 40%;
+        margin: 100px 0px 0px;
+    }
+    
+    .admin-admin1{
+        border: 1px solid green;
+        width: 35%;
+        padding: 10px;
+        margin: 40px 0px 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+    }
+    
+    .admin-user2{
+        color: #0CBB5C;
+        text-align: center;
+        font-family: InterRegular;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: 40%;
+    
+        border-radius: 15px;
+        background: #fff;
+        padding: 6px 45px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        border: 1px solid #0CBB5C;
+        z-index: 0;
+        cursor: pointer;
+        filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+    }
+    
+    .admin-user2:hover{
+        color: #000;
+    }
+    
+    .admin-admin2{
+        color: #fff;
+        text-align: center;
+        font-family: InterRegular;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 6px 25px;
+        border: 1px solid #0CBB5C;
+        border-radius: 15px;
+        background-color: #0CBB5C;
+        position: absolute;
+        right:5%;
+        z-index: 10;
+        cursor: pointer;
+        filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+    }
+    
+    .admin-admin2:hover{
+        color: #000;
+    }
+    
+    .admin-account{
+        margin: 25px 0px 0px;
+        width: 40%;
+    }
+    
+    .admin-account h3{
+        color: #000;
+        text-align: left;
+        font-family: InterRegular;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 16px; /* 100% */
+    }
+    
+    .admin-form{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px 0px 0px ;
+        position: relative;
+        /* align-items: center; */
+    }
+    
+    .admin-input{
+        width: 100%;
+        padding: 25px 10px;
+        border-radius: 10px;
+        border: 1px solid #0CBB5C;
+        background: #FFF;
+        margin: 10px 0px;
+        font-size: 20px;
+        font-family: InterRegular;
+    }
+    
+    ::placeholder{
+        font-size: 20px;
+        font-family: InterRegular;
+    }
+    
+    .eyelashes-two{
+        width: 8%;
+        position: absolute;
+        bottom: 130px;
+        right: 8%;
+    }
+    
+    .eyelashes-three{
+        width: 8%;
+        position: absolute;
+        bottom: 30px;
+        right: 8%;
+    }
+    
+    
+    .adminbtn-btn{
+        margin: 40px 0px 10px;
+        width: 40%;
+    }
+    
+    .admin-btn{
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #0CBB5C;
+        background: #0CBB5C;
+    
+        color: #FFF;
+        font-family: InterRegular;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 25px 0px;
+        cursor: pointer;
+    }
+    
+    .admin-text{
+        /* width: 100%; */
+        /* border: 2px solid red; */
+        margin: 30px 0px 20px;
+    }
+    
+    .admin-text p{
+        color: rgba(0, 0, 0, 0.60);
+        text-align: center;
+        font-family: InterRegular;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .admin-log{
+        color: #0CBB5C;
+        font-family: InterRegular;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        cursor: pointer;
+    }
+} 

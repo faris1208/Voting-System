@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poll-container{
+    width: 100%;
+    padding: 20px;
+}
+
+.poll-contents{
+    margin: 20px 0px;
+}
+
+.poll-contents h5{
+    color: #000;
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+.poll-contents p{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: InterRegular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px 0px;
+}
+
+.poll-title-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.poll-title h5{
+    color: #000;
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+    margin: 8px 0px 5px;
+}
+
+.type-input{
+    border-radius: 10px;
+    background: #FFF;
+    width: 100%;
+    padding: 15px 10px;
+    
+    color: rgba(0, 0, 0, 0.26);
+    font-family: InterRegular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 6px 0px;
+    /* border: none; */
+    border: 1px solid lightslategray;
+}
+
+.start-container{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid blue; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.start-contents{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+}
+
+.start-contents label{
+    color: #000;
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.start-input{
+    border-radius: 10px;
+    background: #FFF;
+    border: 1px solid lightslategray;
+
+    /* width: 100%;
+    padding: 15px 10px; */
+
+    width: 157px;
+    height: 49px;
+    flex-shrink: 0;
+
+    color: rgba(0, 0, 0, 0.26);
+    /* text-align: right; */
+    font-family: InterRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px 10px;
+}
+
+.time-label1{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.time-label1 label{
+    color: #000;
+    /* text-align: lec; */
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.time-label2{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+.time-label2 label{
+    color: #000;
+    /* text-align: lec; */
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.time-input{
+    border-radius: 10px;
+    background: #FFF;
+    border: 1px solid lightslategray;
+
+    width: 157px;
+    height: 49px;
+    flex-shrink: 0;
+
+    color: rgba(0, 0, 0, 0.26);
+    /* text-align: right; */
+    font-family: InterRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px 10px;
+
+    /* width: 100%;
+    padding: 13px 10px; */
+}
+
+.restrictions h5{
+    color: #000;
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 25px 0px 10px;
+}
+
+.restrictions-input{
+    width: 100%;
+    padding: 15px 10px;
+
+    color: rgba(0, 0, 0, 0.26);
+    font-family: InterRegular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid lightslategray;
+
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.create-pollbtn{
+    margin: 25px 0px 15px;
+}
+
+.create-poll-btn{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #0CBB5C;
+    background: #0CBB5C;
+
+    color: #FFF;
+    font-family: InterRegular;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 25px 0px;
+    cursor: pointer;
+}
+
+.create-poll-btn:hover{
+    color: #000;
+}

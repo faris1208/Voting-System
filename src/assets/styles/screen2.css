@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url("../fonts/Inter/static/Inter-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: LexendRegular;
+    src: url("../fonts/Lexend/static/Lexend-Regular.ttf");
+  }
+
+
+.voters-container{
+    width: 100%;
+    padding: 20px;
+}
+
+.voter-text{
+    text-align: right;
+}
+
+.voter-text h6{
+    color: #000;
+    text-align: right;
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+    margin-right: 25px;
+}
+
+.voters-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 90px;
+}
+
+
+.voters-image{
+    width: 80%;
+}
+
+.voters-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.voters-content h3{
+    color: #000;
+    text-align: center;
+    font-family: LexendRegular;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+}
+
+.voters-content p{
+    color: rgba(0, 0, 0, 0.81);
+    /* leading-trim: both; */
+    /* text-edge: cap; */
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 133.333% */
+    letter-spacing: 0.3px;
+
+    /* border: 2px solid green; */
+    padding: 10px 20px;
+    margin: 40px 0px 30px;
+}
+
+.seventy-image{
+    width: 50%;
+}
+
+.next-btn1{
+    display: flex;
+    width: 338px;
+    height: 54px;
+    transform: rotate(-0.176deg);
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    border: 1px solid #0CBB5C;
+    background: #FFF;
+
+    color: #0CBB5C;
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 70px 0px 0px ;
+}
+
+.next-btn1:hover{
+    background-color: #0CBB5C;
+    border: 1px solid #0CBB5C;
+    color: #FFF;
+}
+
+
+@media (min-width:800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    @font-face {
+        font-family: InterRegular;
+        src: url("../fonts/Inter/static/Inter-Regular.ttf");
+      }
+    
+      @font-face {
+        font-family: LexendRegular;
+        src: url("../fonts/Lexend/static/Lexend-Regular.ttf");
+      }
+    
+    
+    .voters-container{
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .voter-text{
+        text-align: right;
+    }
+    
+    .voter-text h6{
+        color: #000;
+        text-align: right;
+        font-family: InterRegular;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+        margin-right: 125px;
+        padding: 30px 0px;
+        /* border: 2px solid red; */
+    }
+    
+    .voters-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+        margin-top: 90px;
+    }
+    
+    
+    .voters-image{
+        width: 40%;
+    }
+    
+    .voters-content{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    .voters-content h3{
+        color: #000;
+        text-align: center;
+        font-family: LexendRegular;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px; /* 100% */
+    }
+    
+    .voters-content p{
+        color: rgba(0, 0, 0, 0.81);
+        /* leading-trim: both; */
+        /* text-edge: cap; */
+        font-family: InterRegular;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 133.333% */
+        letter-spacing: 0.3px;
+    
+        /* border: 2px solid green; */
+        padding: 0px 5px;
+        margin: 10px 0px 30px 70px;
+
+        display: flex;
+        width: 306px;
+        height: 105px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    
+    .seventy-image{
+        width: 10%;
+    }
+
+    .next-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .next-btn1{
+        display: flex;
+        width: 388px;
+        height: 54px;
+        transform: rotate(-0.176deg);
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+    
+        border-radius: 10px;
+        border: 1px solid #0CBB5C;
+        background: #FFF;
+    
+        color: #0CBB5C;
+        font-family: InterRegular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 70px 0px 0px ;
+    }
+    
+    .next-btn1:hover{
+        background-color: #0CBB5C;
+        border: 1px solid #0CBB5C;
+        color: #FFF;
+    }
+}

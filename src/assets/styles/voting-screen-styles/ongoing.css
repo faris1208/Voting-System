@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ongoing-container{
+    width: 100%;
+    padding: 20px;
+
+
+    /* border-radius: 25px;
+    border: 10px solid #000; */
+    background: rgba(255, 255, 255, 0.60);
+}
+
+.ongoing-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.count-image{
+    width: 100%;
+}
+
+.ongoing-head h5{
+    color: rgba(0, 0, 0, 0.81);
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+    margin: 15px 0px 8px;
+}
+
+.ongoing-head h6{
+    color: #0CBB5C;
+    text-align: center;
+    font-family: InterRegular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 114.286% */
+}
+.ongoing-head p{
+    color: #000;
+    text-align: center;
+    font-family: InterRegular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+    margin: 8px 0px;
+}
+
+.ongoing-new{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.ongoing-contents{
+    width: 100%;
+    padding: 15px 0px;
+    /* border: 2px solid red; */
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.obi-head{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid green; */
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+}
+
+.obi-image{
+    width: 20%;
+    border-radius: 50%;
+}
+
+.party{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    text-align: left;
+    width: 70%;
+    margin: 0px 20px;
+    /* border: 1px solid red; */
+}
+
+.party h5{
+    color: #000;
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+.party p{
+    color: rgba(0, 0, 0, 0.60);
+    text-align: left;
+    font-family: InterRegular;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    /* border: 2px solid gray; */
+    margin: 8px 0px;
+}
+
+.obi-btn{
+    /* width: 70px; */
+    padding: 8px 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #0CBB5C;
+    border: 1px solid #0CBB5C;
+    border-radius: 8px;
+    cursor: pointer;
+}
