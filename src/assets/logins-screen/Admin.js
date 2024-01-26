@@ -39,6 +39,8 @@ const Admin = () => {
                 <div className="adminbtn-btn">
                     <button className="admin-btn">Create Account</button>
                 </div>
+
+                
                 <div className="admin-text">
                     <p>Already have an account? <span className="admin-log"  onClick={() => {navigate("/login")}}>Log In</span></p>
                 </div>
