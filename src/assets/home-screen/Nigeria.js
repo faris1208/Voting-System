@@ -1,6 +1,9 @@
 import peter from "../img/peter obi 1.svg";
 import labour from "../img/LP 1.svg";
 import { useNavigate } from "react-router-dom";
+import magnify from "../img/MagnifyingGlass (1).svg";
+import dot from "../img/Group 100.svg";
+import jay from "../img/J.svg";
 
 const Nigeria = () => {
 
@@ -8,6 +11,20 @@ const Nigeria = () => {
 
     return ( 
         <div className="nigeria-container">
+
+                <div className="welcome-input-head">
+                    <div className="magnify">
+                        <img src={magnify} alt="" className="magnify-image" width="100%" />
+                        <input type="text" placeholder="Search" className="magnify-input" />
+                    </div>
+                    <div className="dot-jay">
+                        <img src={dot} alt="" className="dot-image" width="100%" />
+                        <div className="jay-head">
+                            <img src={jay} alt="" className="jay-image" width="100%" />
+                        </div>
+                    </div>
+                </div>
+
             <div className="nigeria-wrapper">
                 <div className="nigeria-text">
                     <h4>Nigeria 2023</h4>

@@ -25,8 +25,8 @@ const Screen1 = () => {
                         </ul>
                     </div>
                     <div className="home-login">
-                        <button className="btn3">Login</button>
-                        <button className="btn4">Register</button>
+                        <button className="btn3"  onClick={() => {navigate("/login")}}>Login</button>
+                        <button className="btn4" onClick={() => {navigate("/create")}}>Register</button>
                     </div>
                 </div>
                 <div className="ellipse1-img">

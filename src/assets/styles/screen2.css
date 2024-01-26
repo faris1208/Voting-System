@@ -33,6 +33,7 @@
     font-weight: 600;
     line-height: 16px; /* 100% */
     margin-right: 25px;
+    cursor: pointer;
 }
 
 .voters-img{

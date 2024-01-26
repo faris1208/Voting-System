@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Statistics-container{
+    width: 100%;
+    padding: 40px 20px 20px;
+    max-width: 420px;
+    /* border: 2px solid blue; */
+    /* border-radius: 25px; */
+    /* border: 10px solid #000; */
+    background: rgba(255, 255, 255, 0.60);
+}
+
+.Statistics-head{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.Pres-arrow-image{
+    width: 6%;
+    cursor: pointer;
+}
+
+.Statistics-head p{
+    color: #000;
+    /* text-align: center; */
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+
+.fifty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+.fifty-arrow-image{
+    width: 80%;
+}
+
+.fifty p{
+    color: rgba(0, 0, 0, 0.60);
+    text-align: center;
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+    position: absolute;
+}
+
+.CANDIDATES{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.CANDIDATES p{
+    color: rgba(0, 0, 0, 0.81);
+    text-align: center;
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+.sive{
+    margin-top: 40px;
+}
+
+.Progressive{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid green; */
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.Progressive-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* border: 2px solid red; */
+    width: 60%;
+}
+
+.Progressive-head h5{
+    color: #000;
+    /* text-align: center; */
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.Progressive-head p{
+    color: rgba(0, 0, 0, 0.60);
+    /* text-align: center; */
+    font-family: InterRegular;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+
+.eight{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* border: 2px solid blue; */
+    width: 40%;
+}
+
+.eight p{
+    color: rgba(0, 0, 0, 0.60);
+    /* text-align: center; */
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+
+.blue-arrow-image{
+    width: 100%;
+}
+
+.red-arrow-image{
+    width: 80%;
+}
+
+.brown-arrow-image{
+    width: 60%;
+}
+
+.green-arrow-image{
+    width: 40%;
+}
+
+@media (min-width:880px) {
+    
+    .Statistics-container{
+        width: 100%;
+        padding: 40px 20px 20px 60px;
+        max-width: 1140px;
+        /* border: 2px solid blue; */
+        /* border-radius: 25px; */
+        /* border: 10px solid #000; */
+        background: rgba(255, 255, 255, 0.60);
+    }
+    
+    .Statistics-head{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    
+    .Pres-arrow-image{
+        width: 2%;
+        cursor: pointer;
+    }
+    
+    .Statistics-head p{
+        color: #000;
+        /* text-align: center; */
+        font-family: InterRegular;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+    }
+    
+    
+    .fifty{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 40px;
+        /* border: 2px solid red; */
+        width: 70%;
+        /* margin-right: 40px; */
+    }
+    
+    .fifty-arrow-image{
+        width: 40%;
+    }
+    
+    .fifty p{
+        color: rgba(0, 0, 0, 0.60);
+        text-align: center;
+        font-family: InterRegular;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px; /* 100% */
+        position: absolute;
+    }
+    
+    .CANDIDATES{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px;
+        margin-top: 20px;
+        width: 65%;
+    }
+    
+    .CANDIDATES p{
+        color: rgba(0, 0, 0, 0.81);
+        text-align: center;
+        font-family: InterRegular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+    }
+    
+    .sive{
+        margin-top: 40px;
+    }
+    
+    .Progressive{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* border: 2px solid green; */
+        width: 100%;
+        margin: 20px 0px;
+    }
+    
+    .Progressive-head{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        /* border: 2px solid red; */
+        width: 60%;
+    }
+    
+    .Progressive-head h5{
+        color: #000;
+        /* text-align: center; */
+        font-family: InterRegular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .Progressive-head p{
+        color: rgba(0, 0, 0, 0.60);
+        /* text-align: center; */
+        font-family: InterRegular;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 133.333% */
+    }
+    
+    .eight{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        /* border: 2px solid blue; */
+        width: 40%;
+    }
+    
+    .eight p{
+        color: rgba(0, 0, 0, 0.60);
+        /* text-align: center; */
+        font-family: InterRegular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 100% */
+    }
+    
+    .blue-arrow-image{
+        width: 30%;
+    }
+    
+    .red-arrow-image{
+        width: 25%;
+    }
+    
+    .brown-arrow-image{
+        width: 20%;
+    }
+    
+    .green-arrow-image{
+        width: 15%;
+    }
+}

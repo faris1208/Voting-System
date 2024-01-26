@@ -7,6 +7,7 @@ const Votes = () => {
     const navigate = useNavigate()
 
     return ( 
+        
         <div className="success-container">
             <div className="success-wrapper">
                 <div className="verified-box">

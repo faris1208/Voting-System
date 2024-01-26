@@ -7,6 +7,7 @@
 .recent-container{
     width: 100%;
     padding: 20px;
+    max-width: 420px;
 }
 
 .james-contents{
@@ -108,4 +109,115 @@
     margin: 0px 15px;
     cursor: pointer;
     text-decoration: none;
+}
+
+@media (min-width:800px) {
+    
+    .recent-container{
+        width: 100%;
+        padding: 20px 20px 20px 70px;
+        max-width: 1140px;
+    }
+
+    .james-contents{
+        display: flex;
+        align-items: center;
+        margin: 20px 0px;
+    }
+    
+    .james-image{
+        width: 4%;
+    }
+    
+    .james-contents h4{
+        color: #000;
+        /* text-align: center; */
+        font-family: InterRegular;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+        margin: 0px 5px;
+    }
+    
+    .kindly{
+        margin: 0px 0px 10px;
+    }
+    
+    .kindly h4{
+        color: #000;
+        text-align: left;
+        font-family: InterRegular;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+    }
+    
+    .kindly h6{
+        color: rgba(0, 0, 0, 0.60);
+        text-align: left;
+        font-family: InterRegular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px; /* 100% */
+        margin: 10px 0px 20px;
+    }
+    
+    .select{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 500px;
+    }
+    
+    .select h4{
+        color: #000;
+        text-align: center;
+        font-family: InterRegular;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+    }
+    
+    .select p{
+        color: rgba(12, 187, 92, 0.40);
+        text-align: center;
+        font-family: InterRegular;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 114.286% */
+        margin: 0px 20px 0px 0px;
+        cursor: pointer;
+    }
+    
+    .badge-contents{
+        margin: 25px 0px;
+    }
+    
+    .badge-wrapper{
+        display: flex;
+        align-items: center;
+        margin: 15px 0px;
+    }
+    .nigeria-image{
+        width: 10%;
+    }
+    
+    .badge-wrapper a{
+        color: #000;
+        text-align: center;
+        font-family: InterRegular;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+        margin: 0px 25px;
+        cursor: pointer;
+        text-decoration: none;
+    }
 }

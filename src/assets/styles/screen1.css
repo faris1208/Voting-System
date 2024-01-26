@@ -279,6 +279,7 @@
         opacity: 0.8;
         background: #0CBB5C;
         border: 1px solid #0CBB5C;
+        cursor: pointer;
     }
 
     .btn3:hover{
@@ -308,6 +309,7 @@
         border: 1px solid #FFF;
         opacity: 0.8;
         margin: 0px 40px;
+        cursor: pointer;
     }
 
     .btn4:hover{

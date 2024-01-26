@@ -8,7 +8,7 @@ const Screen2 = () => {
 
     return ( 
         <div className="voters-container">
-            <div className="voter-text"><h6>Skip</h6></div>
+            <div className="voter-text"><h6 onClick={() => {navigate("/screen4")}}>Skip</h6></div>
             <div className="voters-img">
                 <img src={voters} alt="" className="voters-image" width="100%" />
             </div>

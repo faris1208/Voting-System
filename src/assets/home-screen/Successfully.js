@@ -19,7 +19,7 @@ const Successfully = () => {
                     <h1>Poll Created Successfully</h1>
                 </div>
                 <div className="go-home">
-                    <button className="go-home-btn" onClick={() => {navigate("/welcome")}}>Done</button>
+                    <button className="go-home-btn" onClick={() => {navigate("/recent")}}>Done</button>
                 </div>
             </div>
         </div>

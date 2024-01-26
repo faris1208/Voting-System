@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Presidential-container{
+    width: 100%;
+    padding: 40px 20px 20px;
+    max-width: 420px;
+    /* border: 2px solid blue; */
+    background: rgba(255, 255, 255, 0.60);
+}
+
+.Presidential-head{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.new-arrow-image{
+    width: 6%;
+}
+
+.Presidential-head p{
+    color: #000;
+    /* text-align: center; */
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+.Senetorial-head{
+    /* border: 2px solid red; */
+    margin-top: 140px;
+}
+
+.Senetorial{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid green; */
+    padding: 15px 20px;
+    border-radius: 10px;
+    background: #FFF;
+    margin: 15px 0px;
+    box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+
+.Senetorial:hover{
+    border-radius: 10px;
+    background: rgba(11, 234, 113, 0.16);
+    box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+
+.ten-arrow-image{
+    width: 18%;
+}
+
+.Senetorial p{
+    color: rgba(0, 0, 0, 0.81);
+    /* text-align: center; */
+    font-family: InterRegular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+@media (min-width:880px) {
+
+    .Presidential-container{
+        width: 100%;
+        padding: 40px 20px 20px 60px;
+        max-width: 1140px;
+        /* border: 2px solid blue; */
+        /* border-radius: 25px; */
+        /* border: 10px solid #000; */
+        background: rgba(255, 255, 255, 0.60);
+    }
+    
+    .Presidential-head{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .new-arrow-image{
+        width: 2%;
+    }
+    
+    .Presidential-head p{
+        color: #000;
+        /* text-align: center; */
+        font-family: InterRegular;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+    }
+    
+    .Senetorial-head{
+        /* border: 2px solid red; */
+        margin-top: 100px;
+    }
+    
+    .Senetorial{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        /* border: 2px solid green; */
+        padding: 15px 20px;
+        border-radius: 10px;
+        background: #FFF;
+        margin: 15px 0px;
+        box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+        cursor: pointer;
+    }
+    
+    .Senetorial:hover{
+        border-radius: 10px;
+        background: rgba(11, 234, 113, 0.16);
+        box-shadow: 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+    }
+    
+    .ten-arrow-image{
+        width: 5%;
+        cursor: pointer;
+    }
+    
+    .Senetorial p{
+        color: rgba(0, 0, 0, 0.81);
+        /* text-align: center; */
+        font-family: InterRegular;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+    }
+}

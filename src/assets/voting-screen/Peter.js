@@ -15,6 +15,7 @@ const Peter = () => {
     const navigate = useNavigate()
 
     return ( 
+
         <div className="peter-container">
             <div className="peter-wrapper">
                 <div className="peter-head">
@@ -48,9 +49,10 @@ const Peter = () => {
                         <img src={four} alt="" className="cancel-image" width="100%"  onClick={() => {navigate("/ongoing")}} />
                     </div>
                     <h5>Warning!!!</h5>
-                    <p>Are you sure you want to vote for this candidates? Once confirmed this action cannot be reversed.....</p>
+                    <div className="sure"><p>Are you sure you want to vote for this candidates? Once confirmed this action cannot be reversed.....</p></div>
+                    
                     <div className="confirm">
-                        <button className="confirm-btn" onClick={() => {navigate("/votes")}}>Confirm </button>
+                        <button className="confirm-btn" onClick={() => {navigate("/done")}}>Confirm </button>
                         <button className="cancel-btn" onClick={() => {navigate("/ongoing")}}>Cancel</button>
                     </div>
                 </div>

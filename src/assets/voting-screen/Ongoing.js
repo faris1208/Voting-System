@@ -11,9 +11,12 @@ const Ongoing = () => {
 
     return ( 
         <div className="ongoing-container">
+
             <div className="ongoing-wrapper">
                 <div className="ongoing-head">
-                    <img src={count} alt="" className="count-image" width="100%" />
+                    <div className="count-new">
+                        <img src={count} alt="" className="count-image" width="100%" mp/>
+                    </div>
                     <h5>Ongoing votes</h5>
                     <h6>40,320,261 votes</h6>
                     <p>Voting ends in 8 hours</p>

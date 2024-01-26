@@ -4,7 +4,8 @@ const Poll = () => {
 
     const navigate = useNavigate()
 
-    return ( 
+    return (
+         
         <div className="poll-container">
             <div className="poll-wrapper">
                 <div className="poll-contents">
@@ -25,6 +26,7 @@ const Poll = () => {
                         <input type="text" placeholder="" className="type-input" />
                     </div>
                 </div>
+
                     <form className="poll-form">
                         <div className="start-container">
                             <div className="start-contents">
@@ -54,10 +56,11 @@ const Poll = () => {
                         <input type="text" placeholder="One vote per IP address" className="restrictions-input" />
                     </div>
                     <div className="create-pollbtn">
-                        <button className="create-poll-btn" onClick={() => {navigate("/successfully")}}>Create Poll</button>
+                        <button className="create-poll-btn" onClick={() => {navigate("/upload")}}>Create Poll</button>
                     </div>
             </div>
         </div>
+        
      );
 }
  

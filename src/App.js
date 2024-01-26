@@ -8,13 +8,22 @@ import '../src/assets/styles/create.css';
 import '../src/assets/styles/admin.css';
 import '../src/assets/styles/verification.css';
 import '../src/assets/styles/success.css';
+import '../src/assets/styles/home-screen-styles/sidebar.css';
 import '../src/assets/styles/home-screen-styles/welcome.css';
 import '../src/assets/styles/home-screen-styles/poll.css';
+import '../src/assets/styles/home-screen-styles/upload.css';
+import '../src/assets/styles/home-screen-styles/uploading.css';
 import '../src/assets/styles/home-screen-styles/successfully.css';
 import '../src/assets/styles/home-screen-styles/recent.css';
 import '../src/assets/styles/home-screen-styles/nigeria.css';
+import '../src/assets/styles/home-screen-styles/settings.css';
+import '../src/assets/styles/home-screen-styles/participated.css';
 import '../src/assets/styles/voting-screen-styles/ongoing.css';
 import '../src/assets/styles/voting-screen-styles/peter.css';
+import '../src/assets/styles/voting-screen-styles/done.css';
+import '../src/assets/styles/voting-screen-styles/presidential.css';
+import '../src/assets/styles/voting-screen-styles/statistics.css';
+import '../src/assets/styles/voting-screen-styles/ended.css';
 import Screen1 from './assets/onboarding-screen/Screen1';
 import Screen2 from './assets/onboarding-screen/Screen2';
 import Screen3 from './assets/onboarding-screen/Screen3';
@@ -37,6 +46,16 @@ import Olusegun from './assets/voting-screen/Olusegun';
 import Bola from './assets/voting-screen/Bola';
 import Atiku from './assets/voting-screen/Atiku';
 import Votes from './assets/voting-screen/Votes';
+import Sidebar from './assets/home-screen/Sidebar';
+import Presidential from './assets/voting-screen/Presidential';
+import Statistics from './assets/voting-screen/Statistics';
+import Ended from './assets/voting-screen/Ended';
+import Settings from './assets/home-screen/Settings';
+import Done from './assets/voting-screen/Done';
+import Participated from './assets/home-screen/Participated';
+import Upload from './assets/home-screen/Upload';
+import Uploading from './assets/home-screen/Uploading';
+
 
 function App() {
   return (
@@ -54,17 +73,25 @@ function App() {
         <Route path='/admin' element={<Admin />}/>
         <Route path='/verification' element={<Verification />}/>
         <Route path='/success' element={<Success />}/>
-        <Route path='/welcome' element={<Welcome />}/>
-        <Route path='/poll' element={<Poll />}/>
-        <Route path='/successfully' element={<Successfully />}/>
-        <Route path='/recent' element={<Recent />}/>
-        <Route path='/nigeria' element={<Nigeria />}/>
-        <Route path='/ongoing' element={<Ongoing />}/>
-        <Route path='/peter' element={<Peter />}/>
-        <Route path='/olusegun' element={<Olusegun />}/>
-        <Route path='/bola' element={<Bola />}/>
-        <Route path='/atiku' element={<Atiku />}/>
-        <Route path='/votes' element={<Votes />}/>
+        <Route path='/welcome' element={<Sidebar><Welcome /></Sidebar>}/>
+        <Route path='/poll' element={<Sidebar><Poll /></Sidebar>}/>
+        <Route path='/upload' element={<Sidebar><Upload /></Sidebar>}/>
+        <Route path='/uploading' element={<Sidebar><Uploading /></Sidebar>}/>
+        <Route path='/Successfully' element={<Sidebar><Successfully /></Sidebar>}/>
+        <Route path='/recent' element={<Sidebar><Recent /></Sidebar>}/>
+        <Route path='/nigeria' element={<Sidebar><Nigeria /></Sidebar>}/>
+        <Route path='/ongoing' element={<Sidebar><Ongoing /></Sidebar>}/>
+        <Route path='/peter' element={<Sidebar><Peter /></Sidebar>}/>
+        <Route path='/done' element={<Sidebar><Done /></Sidebar>}/>
+        <Route path='/olusegun' element={<Sidebar><Olusegun /></Sidebar>}/>
+        <Route path='/bola' element={<Sidebar><Bola /></Sidebar>}/>
+        <Route path='/atiku' element={<Sidebar><Atiku /></Sidebar>}/>
+        <Route path='/votes' element={<Sidebar><Votes /></Sidebar>}/>
+        <Route path='/presidential' element={<Sidebar><Presidential /></Sidebar>}/>
+        <Route path='/statistics' element={<Sidebar><Statistics /></Sidebar>}/>
+        <Route path='/ended' element={<Sidebar><Ended /></Sidebar>}/>
+        <Route path='/settings' element={<Sidebar><Settings /></Sidebar>}/>
+        <Route path='/participated' element={<Sidebar><Participated /></Sidebar>}/>
       </Routes>
     </div>
   );

@@ -7,6 +7,7 @@
 .poll-container{
     width: 100%;
     padding: 20px;
+    max-width: 420px;
 }
 
 .poll-contents{
@@ -33,9 +34,11 @@
 }
 
 .poll-title-contents{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* border: 2px solid red; */
     /* align-items: center; */
 }
 
@@ -67,10 +70,12 @@
 }
 
 .start-container{
+    width: 100%;
     display: flex;
     flex-direction: row;
+    gap: 10px;
     /* border: 2px solid blue; */
-    justify-content: space-between;
+    /* justify-content: center; */
     align-items: center;
     margin: 15px 0px;
 }
@@ -80,6 +85,7 @@
     flex-direction: column;
     /* align-items: center; */
     /* border: 2px solid red; */
+    width: 50%;
 }
 
 .start-contents label{
@@ -99,14 +105,14 @@
     /* width: 100%;
     padding: 15px 10px; */
 
-    width: 157px;
+    width: 100%;
     height: 49px;
     flex-shrink: 0;
 
     color: rgba(0, 0, 0, 0.26);
     /* text-align: right; */
     font-family: InterRegular;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -117,6 +123,7 @@
     display: flex;
     flex-direction: column;
     /* border: 2px solid red; */
+    width: 50%;
 }
 
 .time-label1 label{
@@ -132,6 +139,7 @@
 .time-label2{
     display: flex;
     flex-direction: column;
+    width: 50%;
     /* border: 2px solid red; */
 }
 .time-label2 label{
@@ -149,7 +157,7 @@
     background: #FFF;
     border: 1px solid lightslategray;
 
-    width: 157px;
+    width: 100%;
     height: 49px;
     flex-shrink: 0;
 
@@ -214,4 +222,83 @@
 
 .create-poll-btn:hover{
     color: #000;
+}
+
+@media (min-width:800px) {
+    
+    .poll-container{
+        width: 100%;
+        padding: 20px 0px 20px 50px;
+        max-width: 450px;
+        /* border: 2px solid red; */
+    }
+
+    .poll-title-contents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .poll-title input::placeholder{
+        font-size: 14px;
+        padding: 0px 0px 20px;
+    }
+    
+    .poll-title h5{
+        color: #000;
+        font-family: InterRegular;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 100% */
+        margin: 8px 0px 5px;
+    }
+    
+    .type-input{
+        border-radius: 10px;
+        background: #FFF;
+        width: 100%;
+        padding: 10px 10px;
+        
+        color: rgba(0, 0, 0, 0.26);
+        font-family: InterRegular;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 6px 0px;
+        /* border: none; */
+        border: 1px solid lightslategray;
+    }
+
+    .restrictions input::placeholder{
+        font-size: 14px;
+    }
+
+    .create-pollbtn{
+        margin: 25px 0px 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .create-poll-btn{
+        width: 80%;
+        border-radius: 10px;
+        border: 1px solid #0CBB5C;
+        background: #0CBB5C;
+    
+        color: #FFF;
+        font-family: InterRegular;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 15px 0px;
+        cursor: pointer;
+    }
+    
+    .create-poll-btn:hover{
+        color: #000;
+    }
 }

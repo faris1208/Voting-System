@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Uploading-container{
+    width: 100%;
+    padding: 20px;
+    max-width: 420px;
+}
+
+
+.Uploading-contents{
+    margin: 20px 0px;
+}
+
+.Uploading-contents h5{
+    color: #000;
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+.Uploading-contents p{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: InterRegular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 15px 0px;
+}
+
+.Photo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.browser1{
+    width: 35%;
+    /* border: 2px solid green; */
+}
+
+
+.browser{
+    width: 25%;
+    /* border: 2px solid green; */
+}
+
+.browser-image1{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.browser-image{
+    border-radius: 10px;
+}
+
+.Photo-one{
+    /* border: 2px solid red; */
+    width: 70%;
+    padding: 10px 0px;
+}
+
+.Photo-one h5{
+    color: #000;
+    font-family: InterRegular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 100% */
+}
+
+.Photo-one p{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: InterRegular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px 0px;
+}
+
+.eighty p{
+    color: #0CBB5C;
+    font-family: InterRegular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.COMPLETED{
+    padding: 20px 10px;
+    margin: 5px 0px;
+}
+
+.COMPLETED p{
+    color: rgba(0, 0, 0, 0.60);
+    font-family: InterRegular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.dusted{
+    margin-top: 90px;
+}
+
+.dusted-btn{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #0CBB5C;
+    background: #0CBB5C;
+    color: #FFF;
+    text-align: center;
+    font-family: InterRegular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 20px 0px;
+    cursor: pointer;
+}
