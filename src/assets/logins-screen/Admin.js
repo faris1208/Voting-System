@@ -1,9 +1,16 @@
 import eyelashes from "../img/EyeSlash.svg";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Admin = () => {
 
     const navigate = useNavigate()
+
+    const [show,setShow] = useState(false)
+    
+    const handleShow=() =>{
+        setShow(!show)
+    }
 
     return ( 
         <div className="admin-container">
@@ -26,8 +33,8 @@ const Admin = () => {
                     <input type="text" placeholder="Admin ID No" className="admin-input" />
                     <input type="password" placeholder="Password" className="admin-input" />
                     <input type="password" placeholder="Re-enter Password" className="admin-input" />
-                    <img src={eyelashes} alt="" width="100%" className="eyelashes-two" />
-                    <img src={eyelashes} alt="" width="100%" className="eyelashes-three" />
+                    <img src={eyelashes} alt="" width="100%" className="eyelashes-two" onClick={handleShow} />
+                    <img src={eyelashes} alt="" width="100%" className="eyelashes-three" onClick={handleShow} />
                 </div>
                 <div className="adminbtn-btn">
                     <button className="admin-btn">Create Account</button>

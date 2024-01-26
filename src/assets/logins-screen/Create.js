@@ -1,9 +1,16 @@
 import eyelashes from "../img/EyeSlash.svg";
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 const Create = () => {
 
     const navigate = useNavigate()
+
+    const [show,setShow] = useState(false)
+    
+    const handleShow=() =>{
+        setShow(!show)
+    }
 
     return ( 
         <div className="create-container">
@@ -24,10 +31,10 @@ const Create = () => {
                     <input type="text" placeholder="Full Name" className="admin-input" />
                     <input type="text" placeholder="Phone Number" className="admin-input" />
                     <input type="text" placeholder="Voter's identification Number (optional)" className="admin-input" />
-                    <input type="password" placeholder="Password" className="admin-input" />
-                    <input type="password" placeholder="Re-enter Password" className="admin-input" />
-                    <img src={eyelashes} alt="" width="100%" className="eyelashes-two" />
-                    <img src={eyelashes} alt="" width="100%" className="eyelashes-three" />
+                    <input type={show?"text" : "password"} placeholder="Password" className="admin-input" />
+                    <input type={show?"text" : "password"} placeholder="Re-enter Password" className="admin-input" />
+                    <img src={eyelashes} alt="" width="100%" className="eyelashes-two" onClick={handleShow} />
+                    <img src={eyelashes} alt="" width="100%" className="eyelashes-three" onClick={handleShow} />
                 </div>
                 <div className="createaccountbtn">
                     <button className="createaccount-btn" onClick={() => {navigate("/verification")}}>Create Account</button>
