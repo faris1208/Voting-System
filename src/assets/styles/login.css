@@ -18,7 +18,9 @@
     width: 100%;
     max-width: 420px;
     padding: 20px;
+    /* border: 2px solid red; */
 }
+
 
 .ng-text{
     text-align: center;
